@@ -186,8 +186,17 @@ a:hover {
     color: var(--tierra-accent);
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1rem !important;      /* El tamaño base suele ser 1rem, 1.1 es un aumento elegante */
+    line-height: 1.6;       /* Esto le da "aire" entre líneas, se lee mucho mejor */
+    color: var(--crema-luz); /* O el color que estés usando, asegúrate que no sea blanco puro para que no canse la vista */
+    font-weight: 300;       /* Si la fuente lo permite, un peso ligero se ve más sofisticado */
+    max-width: 600px;       /* Opcional: para que el texto no se extienda demasiado a lo ancho */
+    margin: 0 auto;         /* Centra el bloque de texto si el contenedor es más ancho */
 }
 
 .main-title {
